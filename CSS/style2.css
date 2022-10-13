@@ -101,6 +101,10 @@ label {
   padding: 10px;
 }
 
+.text__contact {
+  margin: 10px;
+}
+
 /* Declaro nombre de las áreas para la grilla de productos.html */
 .header__prod {
   grid-area: header__prod;
