@@ -89,6 +89,18 @@ footer {
   justify-content: center;
 }
 
+.text__area {
+  width: 50%;
+}
+
+.input__personal {
+  width: 25%;
+}
+
+label {
+  padding: 10px;
+}
+
 /* Declaro nombre de las áreas para la grilla de productos.html */
 .header__prod {
   grid-area: header__prod;
