@@ -1,6 +1,5 @@
 header {
-    background-color: rgb(98, 133, 189);
-    font-size: large;
+    background-color: rgb(50, 41, 41);
     display: grid;
     justify-content: center;
 }
@@ -23,13 +22,13 @@ ul {
     li {
         list-style-type: none;
         padding: 10px;
-        background-color: white;
         margin: 10px;
 
         a {
             text-decoration: none;
-            color: black;
+            color: white;
             padding: 10px;
+            font-size: x-large;
         }
     }
 }
