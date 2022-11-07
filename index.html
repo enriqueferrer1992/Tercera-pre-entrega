@@ -10,50 +10,67 @@
     <title>TP Coder - Inicio</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-    <link rel="stylesheet" href="./CSS/style2.css">
+    <link rel="stylesheet" href="./css/style2.css">
 </head>
 
 <body>
     <div class="envoltura__index">
 
-        <header class="header__index">
-            <!-- Agrego los logos del header -->
+        <header>
             <div class="logos__head">
-                <img class="logo__head" src="./IMG/Logo Adidas.png" alt="Adidas Logo">
-
-                <img class="logo__head" src="./IMG/Nike Logo.png" alt="Nike Logo">
+                <a href="../index.html">
+                    <img class="logo__head" src="./img/logo adidas.png" alt="Adidas Logo">
+                </a>
+    
+                <a href="./index.html">
+                    <img class="logo__head" src="./img/nike logo.png" alt="Nike Logo">
+                </a>
+    
             </div>
-
-            <nav>
+            <nav class="test__nav d-none d-md-block">
                 <ul>
                     <li>
-                        <a href="index.html">Inicio</a>
+                        <a href="./index.html">Inicio</a>
                     </li>
                     <li>
-                        <a href="./Section/Productos.html">Productos</a>
+                        <a href="./section/productos.html">Productos</a>
                     </li>
                     <li>
-                        <a href="./Section/Quienes Somos.html">Quienes Somos</a>
+                        <a href="./section/quienes somos.html">Quienes Somos</a>
                     </li>
                     <li>
-                        <a href="./Section/Galeria.html">Galeria</a>
+                        <a href="./section/galeria.html">Galeria</a>
                     </li>
                     <li>
-                        <a href="./Section/Contacto.html">Contacto</a>
+                        <a href="./section/contacto.html">Contacto</a>
                     </li>
                 </ul>
             </nav>
-
-
+    
+            <div class="d-md-none">
+                <button class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown"
+                    aria-expanded="false">
+                    MENU
+                </button>
+                <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" href="./index.html">Inicio</a></li>
+                    <li><a class="dropdown-item" href="./section/productos.html">Productos</a></li>
+                    <li><a class="dropdown-item" href="./section/quienes somos.html">Quienes Somos</a></li>
+                    <li><a class="dropdown-item" href="./section/galeria.html">Galeria</a></li>
+                    <li><a class="dropdown-item" href="./section/contacto.html">Contacto</a></li>
+                </ul>
+            </div>
+    
+    
         </header>
 
 
         <div class="contenido__index">
-            <img class="pic__principal" src="./IMG/Foto principal Home.webp" alt="Foto Principal">
+            <img class="pic__principal" src="./img/foto principal Home.webp" alt="Foto Principal">
             <div class="contenido__grid">
                 <div class="camiseta__arg">
                     <p class="texto__arg">Aprovechá el año del mundial, y conseguí tu camiseta al mejor precio.</p>
-                    <img class="casaca" src="./IMG/Camiseta Argentina.jpg" alt="Camiseta Argentina">
+                    <img class="casaca" src="./img/camiseta argentina.jpg" alt="Camiseta Argentina">
 
                 </div>
 
@@ -61,11 +78,14 @@
         </div>
 
         <footer>
-            <!-- Agrego redes sociales al footer -->
+
+            <div class="text__footer">
+                <p> Sportium ©| Todos los derechos reservados </p>
+            </div>
             <div class="social__media">
-                <img class="icon" src="./IMG/Twitter Logo.png" alt="TW Logo">
-                <img class="icon" src="./IMG/Instagram Logo.png" alt="Instagram Logo">
-                <img class="icon" src="./IMG/FB Logo.png" alt="FB Logo">
+                <img class="icon" src="./img/twitter logo.png" alt="TW Logo">
+                <img class="icon" src="./img/instagram logo.png" alt="Instagram Logo">
+                <img class="icon" src="./img/fb logo.png" alt="FB Logo">
 
             </div>
         </footer>

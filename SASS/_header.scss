@@ -2,16 +2,15 @@ header {
     background-color: rgb(50, 41, 41);
     display: grid;
     justify-content: center;
-}
 
-.logos__head {
-    display: flex;
-    justify-content: center;
-
-}
-
-.logo__head {
-    padding: 10px;
+    .logos__head {
+        display: flex;
+        justify-content: center;
+    
+        .logo__head {
+            padding: 10px; 
+        }
+    }
 }
 
 ul {

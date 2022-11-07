@@ -1,5 +1,6 @@
 
 @import "header";
+@import "footer";
 
 body {
     text-align: center;
@@ -34,25 +35,6 @@ h1 {
     display: flex;
     justify-content: center;
     align-items: center;
-
-}
-
-
-.social__media {
-    display: flex;
-    justify-content: flex-end;
-}
-
-.icon {
-    width: 40px;
-    height: 30px;
-}
-
-footer {
-    padding: 20px;
-    margin-bottom: 0px;
-    margin-top: 1.5em;
-    background-color: rgb(50, 41, 41);
 }
 
 .mapa {
@@ -115,7 +97,6 @@ label{
     height: 250px;
     border: 8px solid black;
     margin-top: 15px;
-
 }
 
 .quienes__somos {
@@ -171,7 +152,6 @@ label{
 
 .pic__principal {
     width: 100%;
-
 }
 
 .camiseta__arg {
@@ -186,17 +166,15 @@ label{
     font-size: 5vw;
     margin-top: 0;
     margin-bottom: 0;
-
 }
 
 .casaca {
     width: 50%;
-
 }
 
 
 
-@media (min-width:600px) {
+@media (min-width:768px) {
 
     .prod {
         background-color: goldenrod;
@@ -207,9 +185,7 @@ label{
     }
 
     .texto__arg {
-
         font-size: 5vw;
-
     }
 }
 
@@ -223,7 +199,6 @@ label{
 
     li {
         display: inline-block;
-
     }
 
     header {
@@ -234,7 +209,6 @@ label{
         display: flex;
         justify-content: center;
         align-items: center;
-
     }
 
     .prod {
@@ -264,9 +238,7 @@ label{
     }
 
     .texto__arg {
-
         font-size: 5vw;
-
     }
-
+    
 }

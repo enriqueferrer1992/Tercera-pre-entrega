@@ -1,0 +1,21 @@
+footer {
+    padding: 20px;
+    margin-bottom: 0px;
+    margin-top: 1.5em;
+    background-color: rgb(50, 41, 41);
+
+    .text__footer {
+        color: white;
+    }
+
+    .social__media {
+        display: flex;
+        justify-content: flex-end;
+
+        .icon {
+            width: 40px;
+            height: 30px;
+        }
+    }
+
+}

@@ -10,58 +10,79 @@
     <title>TP Coder - Productos</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-    <link rel="stylesheet" href="../CSS/style2.css">
+    <link rel="stylesheet" href="../css/style2.css">
 </head>
 
 <body>
     <div class="envoltura__productos">
-        <header class="header__prod">
+        <header>
             <div class="logos__head">
-                <img class="logo__head" src="../IMG/Logo Adidas.png" alt="Adidas Logo">
-
-                <img class="logo__head" src="../IMG/Nike Logo.png" alt="Nike Logo">
+                <a href="../index.html">
+                    <img class="logo__head" src="../img/logo adidas.png" alt="Adidas Logo">
+                </a>
+    
+                <a href="../index.html">
+                    <img class="logo__head" src="../img/nike logo.png" alt="Nike Logo">
+                </a>
+    
             </div>
-            <nav>
+            <nav class="test__nav d-none d-md-block">
                 <ul>
                     <li>
                         <a href="../index.html">Inicio</a>
                     </li>
                     <li>
-                        <a href="Productos.html">Productos</a>
+                        <a href="productos.html">Productos</a>
                     </li>
                     <li>
-                        <a href="Quienes Somos.html">Quienes Somos</a>
+                        <a href="quienes somos.html">Quienes Somos</a>
                     </li>
                     <li>
-                        <a href="Galeria.html">Galeria</a>
+                        <a href="galeria.html">Galeria</a>
                     </li>
                     <li>
-                        <a href="Contacto.html">Contacto</a>
+                        <a href="contacto.html">Contacto</a>
                     </li>
                 </ul>
             </nav>
+    
+            <div class="d-md-none">
+                <button class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown"
+                    aria-expanded="false">
+                    MENU
+                </button>
+                <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" href="../index.html">Inicio</a></li>
+                    <li><a class="dropdown-item" href="productos.html">Productos</a></li>
+                    <li><a class="dropdown-item" href="quienes somos.html">Quienes Somos</a></li>
+                    <li><a class="dropdown-item" href="galeria.html">Galeria</a></li>
+                    <li><a class="dropdown-item" href="contacto.html">Contacto</a></li>
+                </ul>
+            </div>
+    
+    
         </header>
         <div class="prod__grid">
             <div class="prod">
 
-                <img class="productos" src="../IMG Productos/Running 1.png" alt="">
-                <img class="productos" src="../IMG Productos/Running 2.png" alt="">
-                <img class="productos" src="../IMG Productos/Running 3.png" alt="">
+                <img class="productos" src="../img productos/running 1.png" alt="">
+                <img class="productos" src="../img productos/running 2.png" alt="">
+                <img class="productos" src="../img productos/running 3.png" alt="">
 
 
-                <img class="productos" src="../IMG Productos/Running 4.png" alt="">
-                <img class="productos" src="../IMG Productos/Running 5.png" alt="">
-                <img class="productos" src="../IMG Productos/Running 6.png" alt="">
+                <img class="productos" src="../img productos/running 4.png" alt="">
+                <img class="productos" src="../img productos/running 5.png" alt="">
+                <img class="productos" src="../img productos/running 6.png" alt="">
 
 
-                <img class="productos" src="../IMG Productos/Botines 1.png" alt="">
-                <img class="productos" src="../IMG Productos/Botines 2.png" alt="">
-                <img class="productos" src="../IMG Productos/Botines 3.png" alt="">
+                <img class="productos" src="../img productos/botines 1.png" alt="">
+                <img class="productos" src="../img productos/botines 2.png" alt="">
+                <img class="productos" src="../img productos/botines 3.png" alt="">
 
 
-                <img class="productos" src="../IMG Productos/Botines 4.png" alt="">
-                <img class="productos" src="../IMG Productos/Botines 5.png" alt="">
-                <img class="productos" src="../IMG Productos/Botines 6.png" alt="">
+                <img class="productos" src="../img productos/botines 4.png" alt="">
+                <img class="productos" src="../img productos/botines 5.png" alt="">
+                <img class="productos" src="../img productos/botines 6.png" alt="">
 
 
 
@@ -69,10 +90,13 @@
         </div>
 
         <footer>
+            <div class="text__footer">
+                <p> Sportium ©| Todos los derechos reservados </p>
+            </div>
             <div class="social__media">
-                <img class="icon" src="../IMG/Twitter Logo.png" alt="TW Logo">
-                <img class="icon" src="../IMG/Instagram Logo.png" alt="Instagram Logo">
-                <img class="icon" src="../IMG/FB Logo.png" alt="FB Logo">
+                <img class="icon" src="../img/twitter logo.png" alt="TW Logo">
+                <img class="icon" src="../img/instagram logo.png" alt="Instagram Logo">
+                <img class="icon" src="../img/fb logo.png" alt="FB Logo">
 
             </div>
         </footer>
